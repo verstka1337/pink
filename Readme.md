@@ -1,17 +1,9 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
----
-
-**Обратите внимание, что папка с вашими исходными файлами — `source/`.**
-
-Полезный файл:
-
 - [Contributing.md](Contributing.md) — руководство по внесению изменений.
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
-
----
 
 [travis-image]: https://travis-ci.com/htmlacademy-adaptive/1182509-pink-18.svg?branch=master
 [travis-url]: https://travis-ci.com/htmlacademy-adaptive/1182509-pink-18
