@@ -1,0 +1,45 @@
+.field-group {
+  border: solid 2px #e5e5e5;
+}
+
+.field-group--no-border {
+  border: 0;
+}
+
+.form-group__title,
+.input-field__text {
+  font-size: 14px;
+  line-height: 30px;
+  color: $text__light-red;
+}
+
+.input-field,
+.radio-field__custom-item,
+.checkbox-field__custom-item,
+.textarea-field {
+  line-height: 30px;
+}
+
+.input-field__input,
+.textarea-field {
+  border: solid 2px #e5e5e5;
+}
+
+.input-field__input::placeholder,
+.textarea-field::placeholder {
+  font: inherit;
+  font-size: 18px;
+  color: inherit;
+}
+
+.form-button {
+  font-size: 18px;
+  color: #ffffff;
+
+  background-color: #2aab6d;
+  border: none;
+}
+
+.required-fields__text-top {
+  color: $text__light-red;
+}
