@@ -1,0 +1,30 @@
+.features {
+  background-color: $bg__light-grey;
+}
+
+.features__item-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.features__item-desc {
+  line-height: 30px;
+  text-align: center;
+}
+
+.features__effect-24h {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.features__effect-text {
+  line-height: 30px;
+}
+
+.features__effect-link {
+  line-height: 30px;
+  text-decoration: underline;
+  color: $text__light-red;
+}

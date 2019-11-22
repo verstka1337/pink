@@ -16,7 +16,7 @@
         <button class="main-nav__toggle" type="button">
             <span class="visually-hidden">Открыть меню</span>
         </button>
-        <ul class="site-list main-nav__list">
+        <ul class="list site-list main-nav__list">
           <li class="site-list__item"><a href="index.html" class="link  main-nav__link">Главная</a></li>
           <li class="site-list__item"><a href="photo.html" class="link  main-nav__link">Фотографии</a></li>
           <li class="site-list__item"><a class="link  main-nav__link">Конкурс</a></li>
@@ -29,8 +29,8 @@
   <main class="page-main">
     <section class="contest">
       <div class="container">
-        <h2 class="visually-hidden"></h2>
-        <p class="section-intro users-photos__section-intro">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+        <h2 class="visually-hidden">Участвуйте в нашем конкурсе!</h2>
+        <p class="section-intro contest__section-intro">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
         <form action="https://echo.htmlacademy.ru" class="contest-form" name="contest-form" method="POST">
           <fieldset class="field-group field-group--no-border">
             <legend class="visually-hidden">ФИО</legend>
@@ -77,7 +77,7 @@
             <legend class="form-group__title">Ваши безбашенные достижения в путешествии</legend>
             <p class="checkbox-field contest-form__checkbox-field">
               <label for="contest-form__selfie-shark" class="checkbox-field__custom-item">Сделал селфи с акулой</label>
-              <input type="checkbox" class="checkbox-field__input"  id="contest-form__selfie-shark">
+              <input type="checkbox" class="checkbox-field__input"  id="contest-form__selfie-shark" checked>
             </p>
             <p class="checkbox-field contest-form__checkbox-field">
               <label for="contest-form__chuck-norris" class="checkbox-field__custom-item">Видел Чака Норриса</label>
@@ -85,11 +85,11 @@
             </p>
             <p class="checkbox-field contest-form__checkbox-field">
               <label for="contest-form__keep-tower" class="checkbox-field__custom-item">Удержал башню</label>
-              <input type="checkbox" class="checkbox-field__input" id="contest-form__keep-tower">
+              <input type="checkbox" class="checkbox-field__input" id="contest-form__keep-tower" checked>
             </p>
             <p class="checkbox-field contest-form__checkbox-field">
               <label for="contest-form__burn-on-beach" class="checkbox-field__custom-item">Обгорел на пляже</label>
-              <input type="checkbox" class="checkbox-field__input" id="contest-form__burn-on-beach">
+              <input type="checkbox" class="checkbox-field__input" id="contest-form__burn-on-beach" checked>
             </p>
             <p class="checkbox-field contest-form__checkbox-field">
               <label for="contest-form__buy-souvenirs" class="checkbox-field__custom-item">Накупил сувениров</label>
@@ -102,11 +102,11 @@
           </fieldset>
           <fieldset class="form-group">
             <legend class="form-group__title">Опишите свои эмоции</legend>
-            <textarea id="contest-form__emotions" class="contest-form__textarea-field" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            <textarea id="contest-form__emotions" class="textarea-field contest-form__textarea-field" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
           </fieldset>
           <button class="button form-button" type="submit">Отправить форму</button>
           <p class="required-fields">
-            <sup>*</sup> — обязательные для заполнения поля
+            <sup class="required-fields__text-top">*</sup> — обязательные для заполнения поля
           </p>
         </form>
       </div>
@@ -117,7 +117,7 @@
       <a href="index.html"  class="logo page-footer__logo">
           <img src="img/logo.png" alt="Логотип Pink">
       </a>
-      <ul class="social__list">
+      <ul class="list social__list">
         <li class="social__item">
           <a href="https://twitter.com/" class="social__link--twitter" target="_blank">Twitter</a>
         </li>
@@ -130,8 +130,8 @@
       </ul>
     </div>
     <p class="text page-footer__copyright">
-      <a href="https://htmlacademy.ru/" target="_blank">Разработано</a>
-    </p>
+        <a class="link page-footer__copyright-link" href="https://htmlacademy.ru/" target="_blank">Разработано</a>
+      </p>
   </footer>
 </body>
 </html>

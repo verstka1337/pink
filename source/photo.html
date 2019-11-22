@@ -16,14 +16,14 @@
         <button class="main-nav__toggle" type="button">
             <span class="visually-hidden">Открыть меню</span>
         </button>
-        <ul class="site-list main-nav__list">
+        <ul class="list site-list main-nav__list">
           <li class="site-list__item"><a href="index.html" class="link  main-nav__link">Главная</a></li>
           <li class="site-list__item"><a class="link  main-nav__link">Фотографии</a></li>
           <li class="site-list__item"><a href="form.html" class="link  main-nav__link">Конкурс</a></li>
           <li class="site-list__item"><a href="https://htmlacademy.ru/intensive/adaptive" class="link  main-nav__link" target="_blank">HTML Academy</a></li>
         </ul>
       </nav>
-      <h1 class="page-title page-header__title">Фотографии пользователей</h1>
+      <h1 class="title page-title page-header__title">Фотографии пользователей</h1>
     </div>
   </header>
   <main class="page-main">
@@ -31,7 +31,7 @@
       <div class="container">
         <h2 class="visually-hidden">Фотографии других пользователей</h2>
         <p class="text section-intro users-photos__section-intro">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
-        <ul class="users-photos__list">
+        <ul class="list users-photos__list">
           <li class="users-photos__item users-photos__lead-item">
             <div class="photo-card">
               <a href="#" class="photo-card__origin-link">
@@ -170,10 +170,10 @@
             <label for="load-image__button" class="load-image">
               <img src="" alt="" class="load-image__current-img">
             </label>
-            <input type="file" class="load-image__button" id="load-image__button">
+            <input type="file" class="visually-hidden" id="load-image__button">
           </div>
           <div class="posting-form__col-2">
-            <ul class="edit-photo__list">
+            <ul class="list edit-photo__list">
               <li class="edit-photo__item">
                 <svg class="edit-photo__icon"></svg>
                 <div class="range-controls">
@@ -196,8 +196,8 @@
                 </div>
               </li>
             </ul>
-            <button class="button posting-button" type="submit">Запостить</button>
-            <button class="button cancel-button" type="reset">Отмена</button>
+            <button class="button posting__button posting__button--post" type="submit">Запостить</button>
+            <button class="button posting__button posting__button--cancel" type="reset">Отмена</button>
           </div>
         </form>
       </div>
@@ -208,7 +208,7 @@
       <a href="index.html"  class="logo page-footer__logo">
           <img src="img/logo.png" alt="Логотип Pink">
       </a>
-      <ul class="social__list">
+      <ul class="list social__list">
         <li class="social__item">
           <a href="https://twitter.com/" class="social__link--twitter" target="_blank">Twitter</a>
         </li>
@@ -221,8 +221,8 @@
       </ul>
     </div>
     <p class="text page-footer__copyright">
-      <a href="https://htmlacademy.ru/" target="_blank">Разработано</a>
-    </p>
+        <a class="link page-footer__copyright-link" href="https://htmlacademy.ru/" target="_blank">Разработано</a>
+      </p>
   </footer>
 </body>
 </html>
